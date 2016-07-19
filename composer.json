@@ -1,0 +1,34 @@
+{
+  "name": "wenpeng/aliyun-cdn",
+  "description": "Aliyun OpenAPI Cdn SDK",
+  "keywords": [
+    "aliyun",
+    "open api",
+    "cdn",
+    "php",
+    "sdk"
+  ],
+  "homepage": "https://github.com/wenpeng/aliyun-cdn",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wenpeng",
+      "email": "wenpeng@gmail.com",
+      "homepage": "https://github.com/wenpeng/aliyun-cdn",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "wenpeng/aliyun-core": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\Cdn\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
